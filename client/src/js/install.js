@@ -13,6 +13,7 @@ butInstall.addEventListener('click', async () => {
     if (!promptEvent) {
         return;
     }
+    promptEvent.prompt();
 });
 
 // TODO: Add an handler for the `appinstalled` event
